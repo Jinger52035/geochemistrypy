@@ -776,7 +776,7 @@ class RandomForestClassification(ClassificationWorkflowBase):
         random_state: Optional[int] = 42,
         verbose: int = 0,
         warm_start: bool = False,
-        class_weight: Union[str, dict, list[dict], None] = None,
+        class_weight: Union[str, dict, List[dict], None] = None,
         ccp_alpha: float = 0.0,
         max_samples: Union[int, float] = 10,
     ) -> None:
