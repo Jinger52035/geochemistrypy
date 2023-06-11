@@ -53,6 +53,12 @@ CLASSIFICATION_MODELS = [
     "Xgboost",
     "Deep Neural Network",
 ]
+DETECTION_MODELS = [
+    "IsolationForest",
+    "LOF",
+    "OneClasSVM",
+    "SGDOneClassSVM",
+    "EllipticEnvelope"]
 CLUSTERING_MODELS = ["KMeans", "DBSCAN"]
 DECOMPOSITION_MODELS = ["Principal Component Analysis", "T-SNE"]
 
